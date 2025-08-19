@@ -14,8 +14,40 @@ h1 {
     font-family: 'Time Trap', Arial, Helvetica, sans-serif;
     color: rgb(66, 255, 66);
     text-align: center;
-    font-size: 150px;
+    font-size: 140px;
 }
+
+#proximo_show {
+    background-color: rgba(128, 128, 128, 0.514);
+    color: whitesmoke;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #titulo_albuns {
     font-family: Arial, Helvetica, sans-serif;
@@ -33,14 +65,35 @@ h1 {
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+.link_spotify {
+    text-align: center;
+}
+
+.link_spotify > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.link_spotify > a:hover {
+    color: rgb(66, 255, 66);
+    text-decoration: underline;
+}
+
+#box_albuns {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;        
+}
+
 .albuns {
     background-color: rgba(128, 128, 128, 0.514);
+    color: whitesmoke;
     height: 300px;
     width: 250px;
     padding: 15px;
     border-radius: 8px;
-    margin: 10px;
+    margin: 10px auto;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    display: inline-block;
+    
 }
