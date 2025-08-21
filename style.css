@@ -61,6 +61,7 @@ h1 {
     align-items: center;       
     justify-content: center;
 }
+
 #ingresso > a {
     font-family: 'Segoe UI',  Arial, sans-serif;
     text-align: center;
@@ -72,10 +73,39 @@ h1 {
     text-decoration: underline;
 }
 
+#titulo_agenda {
+    font-family: 'Segoe UI',  Arial, sans-serif;
+    color: rgb(66, 255, 66);
+    text-align: center;
+    margin: 20px 0 12px;
+}
 
+.foto_agenda {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
 
+.agenda {
+    background-color: rgba(128, 128, 128, 0.514);
+    color: whitesmoke;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Segoe UI',  Arial, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+}
 
-
+#box_agenda {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;        
+}
 
 
 

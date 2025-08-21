@@ -20,9 +20,7 @@
             <label> Telefone: </label>
             <input placeholder="digite apenas números" pattern="[0-9]{11}" type="tel" required> <br><br>
             <label> CPF: </label>
-            <input placeholder="digite apenas números" pattern="[0-9]{11}" type="text" required>
-
-
+            <input placeholder="digite apenas números" pattern="[0-9]{11}" type="text" required> <br>
 
             <section class="row">
                 <h2>Forma de pagamento</h2>
@@ -36,7 +34,6 @@
                 </label>
             </section>
 
-            <!-- Bloco PIX -->
             <section>
                 <h2>Pagamento via PIX</h2>
                 <p>Você receberá QR Code para pagar.</p>
@@ -47,45 +44,37 @@
                 </select>
             </section>
 
-            <!-- Bloco Cartão -->
             <section>
                 <h2>Pagamento com Cartão</h2>
-
                 <label for="nomeCartao">Nome impresso no cartão:</label><br>
                 <input id="nomeCartao" name="nomeCartao" type="text">
-
                 <br>
                 <label for="numCartao">Número do cartão:</label><br>
                 <input id="numCartao" name="numCartao" inputmode="numeric"
                     pattern="[0-9]{13,19}" placeholder="Somente números (13 a 19 dígitos)">
-
                 <br>
                 <label for="validade">Validade (MM/AA):</label><br>
                 <input id="validade" name="validade" placeholder="MM/AA"
                     pattern="^(0[1-9]|1[0-2])\/\d{2}$">
-
                 <br>
                 <label for="cvv">CVV:</label><br>
                 <input id="cvv" name="cvv" inputmode="numeric" pattern="[0-9]{3,4}" placeholder="3 ou 4 dígitos">
-
                 <label for="valor">Valor (R$):</label><br>
                 <select>
                     <option value="Meia-entrada R$ 75,00">Meia-entrada R$ 75,00</option>
                     <option value="Inteira R$ 150,00">Inteira R$ 150,00</option>
                 </select>
-
-                <br>
-                <label for="parcelas">Parcelas:</label><br>
-                <select id="parcelas" name="parcelas">
-                <option value="1">1x (à vista)</option>
-                <option value="2">2x (sem juros)</option>
-                <option value="3">3x (sem juros)</option>
-                <option value="4">4x (sem juros)</option>
-                <option value="5">5x (com juros)</option>
-                <option value="6">6x (com juros)</option>
+                    <br>
+                    <label for="parcelas">Parcelas:</label><br>
+                    <select id="parcelas" name="parcelas">
+                    <option value="1">1x (à vista)</option>
+                    <option value="2">2x (sem juros)</option>
+                    <option value="3">3x (sem juros)</option>
+                    <option value="4">4x (sem juros)</option>
+                    <option value="5">5x (com juros)</option>
+                    <option value="6">6x (com juros)</option>
                 </select>
             </section>
-
             <br>
             <input type="submit" value="Enviar">
         </form>
